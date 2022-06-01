@@ -1,0 +1,34 @@
+body{
+    align-items: center;
+    background: #252527;
+}
+.container{
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background:#4285f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tri{
+    width: 200px;
+    height: 200px;
+    background:white;
+    clip-path: polygon(0 0 ,100% 50%,0 100%);
+    transform: translateX(20%);
+    transition:  all 0,8s ;
+}
+div.tri:hover{
+    background-color: tomato;
+    /*width: 300px;*/
+}
+strong{
+    background-size: 3rem;
+    color: violet;
+
+}
